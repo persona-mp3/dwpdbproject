@@ -1,13 +1,6 @@
 import { query } from 'express'
 import mysql from 'mysql2'
 
-const pool = mysql.createPool( {
-    host: 'localhost',
-    user: 'danieleghosa',
-    password: 'mySQL2004@',
-    database: 'dwp'
-}).promise()
-
 
 export async function checkForBrand(brandQuery) {
     try {
@@ -65,8 +58,6 @@ async function joinQuery(ni_query) {
             `
     try {
         const [response] = await pool.query(query3, [ni_query]);
-
-        
         console.log('response below')
         return response
     

@@ -16,6 +16,7 @@ async function sendToServer(formE){
             alert('No search found')
             return;
         }
+        // console.log(data)
 
         if (response.status === 200) {
             console.log('SUCESS')
