@@ -1,0 +1,202 @@
+
+:root {
+    --bodyPadding: .8rem;
+    --btnPadding: .6rem;
+    --border: 1px solid grey;
+    --gap: .8rem;
+    --transparentBorder: 1px solid transparent;
+    --borderRadius: .4rem;
+    --bodyPadding: 1rem
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    position: relative;
+    font-family:'Montserrat', sans-serif;
+}
+
+a, li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border: 1px solid transparent;
+}
+
+
+input, button {
+    all: unset;
+    border: var(--border);
+    padding: var(--btnPadding);
+    border-radius: .4rem;
+}
+
+button {
+    text-align: center;
+    width: fit-content;
+}
+
+button:hover {
+    border: var(--transparentBorder);
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+a:hover {
+    border-bottom: var(--border);
+    transition: .8s;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem;
+    gap: var(--gap);
+    width:80%;
+    margin:0 auto;
+    border-bottom: var(--border);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    backdrop-filter: blur(26px);
+}
+
+.divider {
+    padding: .8rem;
+}
+
+.nav-links a {
+    padding: .4rem;
+}
+
+
+aside {
+    position: fixed;
+    margin-left: 2%;
+    top: 250px
+}
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    padding: var(--bodyPadding);
+    gap: var(--gap);
+    border-left: 1px solid;
+
+}
+
+.side-nav a {
+    padding: .4rem
+}
+
+main {
+    padding: var(--bodyPadding);
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.section, .search-form, .results, .table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--gap);
+}
+
+.search-form {
+    width: 50%;
+}
+
+
+th {
+    padding: var(--btnPadding);
+    width: fit-content;
+    /* border: var(--border); */
+}
+
+td {
+    border-bottom: 1px solid black;
+    padding: .8rem;
+    text-align: center;
+}
+
+.table {
+    position: relative;
+    width: 100%;
+}
+
+.hide-table {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s,
+}
+
+.show-table {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility ease 0.8s, opacity ease 0.8s;
+}
+
+.dropdown-container {
+    position: relative;
+    cursor: pointer;
+    padding: var(--bodyPadding);
+    width: 80%;
+}
+.dropdown-container p {
+    border-bottom: var(--border);
+    width: fit-content;
+}
+
+.filter-section {
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    padding: var(--bodyPadding);
+    align-items: flex-start;
+    /* justify-content: center; */
+    gap: var(--gap);
+    border: 1px solid green;
+    position: absolute;
+    width: fit-content;
+    visibility: hidden;
+    opacity: 0;
+    /* pointer-events: none; */
+    transition: visibilty ease 0.8s;
+    /* margin-top: 2%; */
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdown-content li {
+    border-bottom: var(--border);
+    padding: .4rem;
+}
+
+.dropdown-content li:hover {
+    cursor: pointer;
+}
+
+.show-dropdown {
+    visibility: visible;
+    opacity: 1;
+    transition: visibilty ease 0.8s, opacity ease 0.8s;
+}

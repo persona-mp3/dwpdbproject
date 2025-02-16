@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./public/styles/styles.css"> -->
+    <link rel="stylesheet" href="./styles/styles.css">
+     <script type="module" defer src="./js/client.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="nav">
+        <div class="title"><p>DEPOIMENTO</p></div>
+
+        <div class="nav-links">
+
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Log out</a>
+        </div>
+    </nav>
+
+
+    <aside>
+        <nav class="side-nav">
+            <a href="#">Home</a>
+            <a href="#filter">Add filters</a>
+            <a href="#">Contact</a>
+            <a href="#">Summary</a>
+        </nav>
+    </aside>
+
+    <div class="divider"></div>
+    <main>
+        <section class="section">
+            <h3>SearchUI</h3>
+            <p>This app is meant for the sole use of authorised personnels only</p>
+            <p>All activites here and monitored and use of so said data must strictly follow GDPR Guidelines</p>
+
+
+            <form class="search-form">
+                <label for="search">Enter search</label>
+                <input type="text" name="search_query" id="search-input" value="undercover">
+                
+                <button id="submitBtn" type="submit">Search</button>
+                <!-- <button type="button">Add filter</button> -->
+            </form>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="results">
+
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="table">
+            <table border="1" cellspacing="0" class="hide-table">
+                <tr>
+                    <th>Brand</th>
+                    <th>Product</th>
+                    <th>Price (£)</th>
+                    <th>Annual Sales (£)</th>
+                </tr>
+            </table>
+        </section>
+
+
+        <section class="filter-section" id="filter">
+            <div class="dropdown-container">
+                <p>Select filter</p>
+                <div class="dropdown-content">
+                    <li>Santiago Calatrava</li>
+                    <li>Oscar Niemeyer</li>
+                    <li>Vincent Van Gou</li>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>

@@ -1,0 +1,274 @@
+{
+    "products": [
+        {
+            "name": "Yohji Yamamoto Asymmetric Wool Coat",
+            "category": "Outerwear",
+            "brand": "Yohji Yamamoto",
+            "price": 2350,
+            "annualSales": 1245,
+            "material": "Wool",
+            "color": "Black"
+        },
+        {
+            "name": "Comme des Garçons Deconstructed Blazer",
+            "category": "Formal Wear",
+            "brand": "Comme des Garçons",
+            "price": 1890,
+            "annualSales": 987,
+            "material": "Cotton Blend",
+            "color": "Charcoal"
+        },
+        {
+            "name": "Issey Miyake Pleated Technical Jacket",
+            "category": "Outerwear",
+            "brand": "Issey Miyake",
+            "price": 1650,
+            "annualSales": 1532,
+            "material": "Polyester",
+            "color": "Navy"
+        },
+        {
+            "name": "Rei Kawakubo Layered Wrap Skirt",
+            "category": "Bottoms",
+            "brand": "Comme des Garçons",
+            "price": 1200,
+            "annualSales": 756,
+            "material": "Wool Blend",
+            "color": "Charcoal Gray"
+        },
+        {
+            "name": "Undercover Graphic Print Hoodie",
+            "category": "Streetwear",
+            "brand": "Undercover",
+            "price": 580,
+            "annualSales": 2345,
+            "material": "Cotton",
+            "color": "Black/White"
+        },
+        {
+            "name": "Sacai Hybrid Bomber Jacket",
+            "category": "Outerwear",
+            "brand": "Sacai",
+            "price": 1750,
+            "annualSales": 1123,
+            "material": "Nylon/Cotton",
+            "color": "Olive Green"
+        },
+        {
+            "name": "Junya Watanabe Distressed Denim Jacket",
+            "category": "Outerwear",
+            "brand": "Junya Watanabe",
+            "price": 1400,
+            "annualSales": 845,
+            "material": "Denim",
+            "color": "Indigo"
+        },
+        {
+            "name": "Noir Kei Ninomiya Architectural Dress",
+            "category": "Formal Wear",
+            "brand": "Noir Kei Ninomiya",
+            "price": 2800,
+            "annualSales": 412,
+            "material": "Wool/Polyester",
+            "color": "Black"
+        },
+        {
+            "name": "A Bathing Ape Shark Hoodie",
+            "category": "Streetwear",
+            "brand": "A Bathing Ape",
+            "price": 620,
+            "annualSales": 3456,
+            "material": "Cotton",
+            "color": "Navy Camo"
+        },
+        {
+            "name": "Toga Pulla Asymmetric Leather Jacket",
+            "category": "Outerwear",
+            "brand": "Toga Pulla",
+            "price": 2100,
+            "annualSales": 678,
+            "material": "Leather",
+            "color": "Dark Brown"
+        },
+        {
+            "name": "Y-3 Technical Track Pants",
+            "category": "Bottoms",
+            "brand": "Y-3",
+            "price": 450,
+            "annualSales": 2234,
+            "material": "Polyester",
+            "color": "Black"
+        },
+        {
+            "name": "Ambush Design Chain Necklace",
+            "category": "Accessories",
+            "brand": "Ambush",
+            "price": 890,
+            "annualSales": 1567,
+            "material": "Sterling Silver",
+            "color": "Silver"
+        },
+        {
+            "name": "Julius_7 Skinny Leather Pants",
+            "category": "Bottoms",
+            "brand": "Julius_7",
+            "price": 1600,
+            "annualSales": 523,
+            "material": "Leather",
+            "color": "Black"
+        },
+        {
+            "name": "Rick Owens Draped Wool Sweater",
+            "category": "Knitwear",
+            "brand": "Rick Owens",
+            "price": 1250,
+            "annualSales": 934,
+            "material": "Wool",
+            "color": "Dark Gray"
+        },
+        {
+            "name": "Visvim Folk Wool Coat",
+            "category": "Outerwear",
+            "brand": "Visvim",
+            "price": 3200,
+            "annualSales": 456,
+            "material": "Wool",
+            "color": "Camel"
+        },
+        {
+            "name": "NEIGHBORHOOD Leather Motorcycle Jacket",
+            "category": "Outerwear",
+            "brand": "NEIGHBORHOOD",
+            "price": 2250,
+            "annualSales": 789,
+            "material": "Leather",
+            "color": "Black"
+        },
+        {
+            "name": "Needles Butterfly Track Jacket",
+            "category": "Sportswear",
+            "brand": "Needles",
+            "price": 680,
+            "annualSales": 2123,
+            "material": "Polyester",
+            "color": "Purple"
+        },
+        {
+            "name": "Kapital Distressed Denim Shirt",
+            "category": "Tops",
+            "brand": "Kapital",
+            "price": 550,
+            "annualSales": 1876,
+            "material": "Denim",
+            "color": "Indigo"
+        },
+        {
+            "name": "Mastermind JAPAN Skull Print T-Shirt",
+            "category": "Streetwear",
+            "brand": "Mastermind JAPAN",
+            "price": 380,
+            "annualSales": 2789,
+            "material": "Cotton",
+            "color": "Black/White"
+        },
+        {
+            "name": "Number (N)ine Vintage Leather Boots",
+            "category": "Footwear",
+            "brand": "Number (N)ine",
+            "price": 1750,
+            "annualSales": 567,
+            "material": "Leather",
+            "color": "Vintage Brown"
+        },
+        {
+            "name": "Maison Margiela Tabi Split-Toe Boots",
+            "category": "Footwear",
+            "brand": "Maison Margiela",
+            "price": 1400,
+            "annualSales": 845,
+            "material": "Leather",
+            "color": "White"
+        },
+        {
+            "name": "Wacko Maria Hawaiian Shirt",
+            "category": "Tops",
+            "brand": "Wacko Maria",
+            "price": 420,
+            "annualSales": 2345,
+            "material": "Silk",
+            "color": "Multicolor"
+        },
+        {
+            "name": "Jun Takahashi UNDERCOVER Graphic Bomber",
+            "category": "Outerwear",
+            "brand": "UNDERCOVER",
+            "price": 1900,
+            "annualSales": 678,
+            "material": "Nylon",
+            "color": "Black/Red"
+        },
+        {
+            "name": "APC Minimal Wool Sweater",
+            "category": "Knitwear",
+            "brand": "APC",
+            "price": 580,
+            "annualSales": 1234,
+            "material": "Wool",
+            "color": "Navy"
+        },
+        {
+            "name": "XX - BING Distressed Leather Vest",
+            "category": "Outerwear",
+            "brand": "XX - BING",
+            "price": 1350,
+            "annualSales": 456,
+            "material": "Leather",
+            "color": "Dark Brown"
+        },
+        {
+            "name": "Song for the Mute Oversized Wool Coat",
+            "category": "Outerwear",
+            "brand": "Song for the Mute",
+            "price": 2600,
+            "annualSales": 312,
+            "material": "Wool Blend",
+            "color": "Gray"
+        },
+        {
+            "name": "CDG PLAY Heart Logo T-Shirt",
+            "category": "Streetwear",
+            "brand": "Comme des Garçons",
+            "price": 280,
+            "annualSales": 3456,
+            "material": "Cotton",
+            "color": "White/Red"
+        },
+        {
+            "name": "Hender Scheme Manual Industrial Products",
+            "category": "Footwear",
+            "brand": "Hender Scheme",
+            "price": 1200,
+            "annualSales": 523,
+            "material": "Leather",
+            "color": "Natural Tan"
+        },
+        {
+            "name": "BAPE Color Camo Shark Pants",
+            "category": "Bottoms",
+            "brand": "A Bathing Ape",
+            "price": 510,
+            "annualSales": 2123,
+            "material": "Cotton",
+            "color": "Green Camo"
+        },
+        {
+            "name": "NEIGHBORHOOD Military Down Jacket",
+            "category": "Outerwear",
+            "brand": "NEIGHBORHOOD",
+            "price": 1980,
+            "annualSales": 789,
+            "material": "Nylon/Down",
+            "color": "Olive"
+        }
+    ]
+}
